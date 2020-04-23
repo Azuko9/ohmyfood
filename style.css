@@ -74,6 +74,7 @@ section {
 }
 
 #imageMenu {
+  width: 90vw;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -87,11 +88,15 @@ button {
   border-radius: 15px;
   font-family: sans-serif;
   font: 1.5em sans-serif;
+}
+
+a {
   color: #fdcb46;
+  text-decoration: none;
 }
 
 img {
-  max-width: 20%;
+  max-width: 22%;
 }
 
 footer {
