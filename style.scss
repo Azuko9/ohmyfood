@@ -7,6 +7,42 @@ $brown:#492025;
 $clearcyan:#edefef;
 $cleargreen:#fdfffd;
 
+
+@media screen and (max-width: 766px){
+    section{
+        width: 300px;
+    }
+
+    #imageMenu{
+        flex-direction: column;
+    
+    }
+
+    button{
+        height: 76px;
+    }
+}
+
+@media screen and (min-width: 767px){
+    section{
+        width: 600px;
+    }
+
+    button{
+        height: 38px;
+    }
+}
+
+@media screen and (min-width: 1279px){
+    section{
+        width: 800px;
+    }
+
+    button{
+        height: 38px;
+    }
+}
+
 body{
     height: 100vh;
     margin: 0;
@@ -82,7 +118,6 @@ section{
 
 
 button{
-    height: 38px;
     margin: 10px 3%;
     padding: 5px 15px;
     background-color: $green;
