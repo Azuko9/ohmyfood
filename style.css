@@ -45,18 +45,35 @@ article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 40px 0 98px 0;
 }
 
 #lne {
   background-color: #fcdfdb;
   color: #492025;
-  width: 500px;
-  padding: 15px;
-  margin: 10px 0 68px 0;
+  padding: 40px 25px;
+}
+
+#lcf {
+  background-color: #fff5fe;
+  color: #492025;
+  padding: 40px 25px;
+}
+
+#pap {
+  background-color: #edefef;
+  color: #492025;
+  padding: 40px 25px;
+}
+
+#plt {
+  background-color: #fdfffd;
+  color: #492025;
+  padding: 40px 25px;
 }
 
 section {
-  width: 500px;
+  width: 600px;
   margin: 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,7 +113,11 @@ a {
 }
 
 img {
-  max-width: 22%;
+  max-width: 90%;
+}
+
+.pBold {
+  font-weight: bold;
 }
 
 footer {
