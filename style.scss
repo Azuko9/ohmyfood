@@ -41,10 +41,15 @@ $cleargreen:#fdfffd;
     button{
         height: 38px;
     }
+
+    footer{
+        width: 70vh;
+    }
 }
 
 body{
     height: 100vh;
+    
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -53,12 +58,11 @@ body{
 }
 
 
-
 header{
     background-color: $green;
     color: $orange;
     text-align: center;
-    width: 100vw;
+    width: 70vh;
 }
 h1{
     font-family: sans-serif;
@@ -111,7 +115,6 @@ section{
 }
 
 #imageMenu{
-    width: 90vw;
     justify-content: space-around;
 
 }
@@ -143,7 +146,7 @@ img{
 footer{
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 70vh;
     display: flex;
     justify-content: space-around;
     background-color: $green;

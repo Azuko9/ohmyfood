@@ -29,6 +29,9 @@
   button {
     height: 38px;
   }
+  footer {
+    width: 70vh;
+  }
 }
 
 body {
@@ -53,7 +56,7 @@ header {
   background-color: #579c87;
   color: #fdcb46;
   text-align: center;
-  width: 100vw;
+  width: 70vh;
 }
 
 h1 {
@@ -124,7 +127,6 @@ section {
 }
 
 #imageMenu {
-  width: 90vw;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -155,7 +157,7 @@ img {
 footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
