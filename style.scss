@@ -20,7 +20,9 @@ $cleargreen:#fdfffd;
         width: calc(26vh * 0.7071);
     }
 
-    
+    .h2Lne{
+        font-size: 1.2em;
+    }
     p{
         margin: 3px;
     }
@@ -33,7 +35,20 @@ $cleargreen:#fdfffd;
     h1{
         font: bold 3.5em sans-serif;
     }
-    
+
+    .h2Lne{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+   
     button{
         font: 2vh sans-serif;
     }
@@ -43,10 +58,10 @@ $cleargreen:#fdfffd;
     }
     .fa-music{
         font-size: 2em;
+        margin: 0 10px;
     }
     p{
-        font-size: 1.6em;
-        margin:10px
+        margin:5px
     
     }
 
@@ -114,12 +129,16 @@ h1{
     letter-spacing: -0.075em;
 }
 
+.fontN{
+    font-weight: normal;
+}
 article{
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 100px;
 }
 .clickmenu{
     background-color: $pink;
@@ -132,27 +151,51 @@ article{
 }
 #lne{
     background-color: $pink;
-    font-family: cursive;
-    color: black;
-
+    font-family: cursive ;
+    color:$brown;
 }
+.h2Lne{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Alex Brush', cursive;
+    margin-top: 0;
+}
+
 .fa-music{
     color: rgb(221, 101, 211);
 }
 
 #lcf{
     background-color: $sakura;
-    font-family: serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'EB Garamond', serif;
     color: rgb(146, 15, 207);
 
 }
 
+
 #pap{
     background-color: $clearcyan;
+    font-family: cursive ;
+}
+
+.h2Pap{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Mr Dafoe', cursive;
+    color: blue;
 }
 
 #plt{
     background-color: $cleargreen;
+    
+    font-family: cursive ;
+}
+.h2Plt{
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Merienda One', cursive;
+    color: chartreuse;
 }
 
 section{
@@ -160,6 +203,19 @@ section{
     display: flex;
     justify-content: space-between;
 }
+
+#sectionlanote{
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#sectionlanote2{
+    margin: 4%;
+    justify-content: center;
+}
+
 
 .sectionColone{
     flex-direction: column;
@@ -187,7 +243,6 @@ a{
     color: $orange;
     text-decoration: none;
 }
-
 
 
 
