@@ -8,44 +8,90 @@ $clearcyan:#edefef;
 $cleargreen:#fdfffd;
 
 
-@media screen and (max-width: 766px){
-    section{
-        width: 300px;
+@media screen and (max-width: 767px){
+    
+
+    button{
+        font: 1.4em sans-serif;
     }
 
-    #imageMenu{
-        flex-direction: column;
+    .clickmenu{
+        height: 26vh;
+        width: calc(26vh * 0.7071);
+    }
+
+    
+    p{
+        margin: 3px;
+    }
+
+    
+}
+
+@media screen and (min-width:768px){
+
+    h1{
+        font: bold 3.5em sans-serif;
+    }
+    
+    button{
+        font: 2vh sans-serif;
+    }
+.clickmenu{
+        height: 35vh;
+        width: calc(35vh * 0.7071);
+    }
+    .fa-music{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1.6em;
+        margin:10px
     
     }
 
-    button{
-        height: 76px;
-    }
 }
-
-@media screen and (min-width: 767px){
-    section{
-        width: 600px;
+@media screen and (max-width: 1278px){
+    header{
+        width: 100%;
     }
 
-    button{
-        height: 38px;
-    }
-}
-
-@media screen and (min-width: 1279px){
-    section{
-        width: 50vh;
+    article{
+        width: 100%;
     }
 
-    button{
-        height: 38px;
-    }
 
     footer{
-        width: 70vh;
+        width: 100%;
     }
 }
+
+
+@media screen and (min-width: 1279px){
+    header{
+        width: 70.71vh;
+    }
+
+    .clickmenu{
+        height: 32vh;
+        width: calc(32vh * 0.7071);
+    }
+    
+    article{
+        width: 70.71vh;
+    }
+    
+    footer{
+        width: 70.71vh;
+    }
+
+
+
+}
+
+
+
+
 
 body{
     height: 100vh;
@@ -61,11 +107,10 @@ header{
     background-color: $green;
     color: $orange;
     text-align: center;
-    width: 66vh;
+    
 }
 h1{
     font-family: sans-serif;
-    font: bold 3em sans-serif;
     letter-spacing: -0.075em;
 }
 
@@ -73,32 +118,41 @@ article{
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    margin: 40px 0 98px 0;
 }
-
+.clickmenu{
+    background-color: $pink;
+    margin: 2% 1% 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 #lne{
     background-color: $pink;
-    color: $brown;
-    padding: 40px 25px
+    font-family: cursive;
+    color: black;
+
+}
+.fa-music{
+    color: rgb(221, 101, 211);
 }
 
 #lcf{
     background-color: $sakura;
-    color: $brown;
-    padding:  40px 25px;
+    font-family: serif;
+    color: rgb(146, 15, 207);
+
 }
 
 #pap{
     background-color: $clearcyan;
-    color: $brown;
-    padding: 40px 25px;
 }
 
 #plt{
     background-color: $cleargreen;
-    color: $brown;
-    padding: 40px 25px;
 }
 
 section{
@@ -109,24 +163,24 @@ section{
 
 .sectionColone{
     flex-direction: column;
+    width: 90%;
 }
 
 #imageMenu{
-    flex: 1;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 
 button{
-    margin: 10px 3%;
+    padding: 20px;
     background-color: $green;
     border: none;
     border-radius: 15px;
     font-family: sans-serif;
-    font: 1.5em sans-serif;
     
 }
 a{
@@ -134,28 +188,39 @@ a{
     text-decoration: none;
 }
 
-.clickmenu{
-    background-color: $pink;
-    width: 44%;
-    height: 44%;
-    margin: 3%;
-}
+
+
 
 img{
     max-width: 90%;
 }
 
+
 .pBold{
     font-weight: bold;
 }
 
+#buttonMenu{
+    flex: 1;
+    align-items: center;
+    
+}
+ #buttonProch{
+     height: 1.7em;
+     padding: 0 4vh;
+     font: 1.7em sans-serif;
+ }
+
 footer{
     position: fixed;
     bottom: 0;
-    width: 66vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: $green;
     text-align: center;
     
+}
+
+#footerindex{
+        position: relative;
 }
