@@ -10,6 +10,7 @@ $cleargreen:#fdfffd;
 
 @media screen and (max-width: 767px){
     
+
     button{
         font: 1.4em sans-serif;
     }
@@ -26,6 +27,8 @@ $cleargreen:#fdfffd;
     p{
         margin: 3px;
     }
+
+    
 }
 
 @media screen and (min-width:768px){
@@ -34,14 +37,16 @@ $cleargreen:#fdfffd;
         font: bold 2.5em sans-serif;
     }
 
+
     h2{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     h3{
         font-size: 1em;
     }
 
+   
     button{
         font: 2vh sans-serif;
     }
@@ -68,6 +73,7 @@ $cleargreen:#fdfffd;
         width: 100%;
     }
 
+
     footer{
         width: 100%;
     }
@@ -83,14 +89,17 @@ $cleargreen:#fdfffd;
         height: 32vh;
         width: calc(32vh * 0.7071);
     }
-
+    
     article{
         width: 70.71vh;
     }
-
+    
     footer{
         width: 70.71vh;
     }
+
+
+
 }
 
 
@@ -113,41 +122,20 @@ header{
     text-align: center;
     
 }
-
 h1{
     font-family: sans-serif;
     letter-spacing: -0.075em;
 }
 
+.fontN{
+    font-weight: normal;
+}
 article{
     flex: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-}
-
-section{
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-#imageMenu{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-a{
-    color: $orange;
-    text-decoration: none;
-}
-#buttonMenu{
-    align-items: center;
-    margin-bottom: 2.5vh;
 }
 .clickmenu{
     background-color: $pink;
@@ -158,21 +146,19 @@ a{
     text-align: center;
     align-items: center;
 }
-
 #lne{
     background-color: $pink;
+    font-family: cursive ;
     color:$brown;
 }
-
-.fa-music{
-    color: rgb(221, 101, 211);
-}
-
 .h2Lne{
     font-family: 'Roboto Slab', serif;
     font-family: 'Alex Brush', cursive;
     margin-top: 0;
-    
+}
+
+.fa-music{
+    color: rgb(221, 101, 211);
 }
 
 #lcf{
@@ -180,41 +166,67 @@ a{
     font-family: 'Roboto Slab', serif;
     font-family: 'EB Garamond', serif;
     color: rgb(146, 15, 207);
+
 }
 
-.pBold{
-    font-weight: bold;
-}
 
 #pap{
     background-color: $clearcyan;
-    color: blue;
+    font-family: cursive ;
 }
 
 .h2Pap{
     font-family: 'Roboto Slab', serif;
     font-family: 'Alex Brush', cursive;
     font-family: 'Mr Dafoe', cursive;
-    
+    color: blue;
 }
 
 #plt{
     background-color: $cleargreen;
-    color: chartreuse;
+    
+    font-family: cursive ;
 }
-
 .h2Plt{
     font-family: 'Alex Brush', cursive;
     font-family: 'Mr Dafoe', cursive;
     font-family: 'Roboto Slab', serif;
     font-family: 'Merienda One', cursive;
+    color: chartreuse;
 }
 
-#buttonProch{
-     height: 1.7em;
-     padding: 0 4vh;
-     font: 1.7em sans-serif;
- }
+section{
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sectionlanote{
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#sectionlanote2{
+    margin: 4%;
+    justify-content: center;
+}
+
+
+.sectionColone{
+    flex-direction: column;
+    width: 90%;
+}
+
+#imageMenu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
 
 button{
     padding: 20px;
@@ -222,9 +234,35 @@ button{
     border: none;
     border-radius: 15px;
     font-family: sans-serif;
+    
+}
+a{
+    color: $orange;
+    text-decoration: none;
 }
 
- 
+
+
+img{
+    max-width: 90%;
+}
+
+
+.pBold{
+    font-weight: bold;
+}
+
+#buttonMenu{
+    
+    align-items: center;
+    
+}
+ #buttonProch{
+     height: 1.7em;
+     padding: 0 4vh;
+     font: 1.7em sans-serif;
+ }
+
 footer{
     position: fixed;
     bottom: 0;
@@ -232,5 +270,9 @@ footer{
     justify-content: space-between;
     background-color: $green;
     text-align: center;
-    position: relative;
+    
+}
+
+#footerindex{
+        position: relative;
 }
