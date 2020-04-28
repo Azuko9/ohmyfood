@@ -45,7 +45,7 @@
   header {
     width: 100%;
   }
-  article {
+  main {
     width: 100%;
   }
   footer {
@@ -61,7 +61,7 @@
     height: 32vh;
     width: calc(32vh * 0.7071);
   }
-  article {
+  main {
     width: 70.71vh;
   }
   footer {
@@ -98,7 +98,7 @@ h1 {
   letter-spacing: -0.075em;
 }
 
-article {
+main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -116,7 +116,7 @@ article {
       justify-content: space-around;
 }
 
-section {
+nav {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;

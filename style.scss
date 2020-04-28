@@ -64,7 +64,7 @@ $cleargreen:#fdfffd;
         width: 100%;
     }
 
-    article{
+    main{
         width: 100%;
     }
 
@@ -84,7 +84,7 @@ $cleargreen:#fdfffd;
         width: calc(32vh * 0.7071);
     }
 
-    article{
+    main{
         width: 70.71vh;
     }
 
@@ -119,7 +119,7 @@ h1{
     letter-spacing: -0.075em;
 }
 
-article{
+main{
     flex: 1;
     display: flex;
     align-items: center;
@@ -127,7 +127,7 @@ article{
     justify-content: space-around;
 }
 
-section{
+nav{
     margin: 0;
     display: flex;
     justify-content: space-between;
