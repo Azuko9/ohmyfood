@@ -6,8 +6,8 @@
     height: 26vh;
     width: calc(26vh * 0.7071);
   }
-  .h2Lne {
-    font-size: 1.2em;
+  .h2 {
+    font-size: 1em;
   }
   p {
     margin: 3px;
@@ -16,16 +16,13 @@
 
 @media screen and (min-width: 768px) {
   h1 {
-    font: bold 3.5em sans-serif;
-  }
-  .h2Lne {
-    font-size: 2em;
+    font: bold 2.5em sans-serif;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   h3 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   button {
     font: 2vh sans-serif;
@@ -43,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 1278px) {
+@media screen and (max-width: 1023px) {
   header {
     width: 100%;
   }
@@ -55,7 +52,7 @@
   }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1024px) {
   header {
     width: 70.71vh;
   }
@@ -120,12 +117,11 @@ article {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 100px;
 }
 
 .clickmenu {
   background-color: #fcdfdb;
-  margin: 2% 1% 0 1%;
+  margin: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,9 +257,6 @@ img {
 }
 
 #buttonMenu {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
