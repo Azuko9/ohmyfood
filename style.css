@@ -6,8 +6,9 @@
     height: 26vh;
     width: calc(26vh * 0.7071);
   }
-  .h2 {
+  h2 {
     font-size: 1em;
+    margin: 2px 0;
   }
   p {
     margin: 3px;
