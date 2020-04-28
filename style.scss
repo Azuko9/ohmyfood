@@ -141,11 +141,12 @@ nav{
 
 }
 
-button{
+a{
     color: $orange;
     text-decoration: none;
 }
 #buttonMenu{
+    justify-content: center;
     align-items: center;
     margin-bottom: 2.5vh;
 }
@@ -211,26 +212,25 @@ button{
 }
 
 #buttonProch{
-     height: 1.7em;
-     padding: 0 4vh;
-     font: 1.7em sans-serif;
+     
+     padding: 0.5vh 4vh;
+     font: 1.4em sans-serif;
  }
 
-button{
+ .afooter{
     padding: 20px;
     background-color: $green;
     border: none;
     border-radius: 15px;
     font-family: sans-serif;
+    
 }
 
  
 footer{
-    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
     background-color: $green;
     text-align: center;
-    position: relative;
 }

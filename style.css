@@ -138,12 +138,15 @@ nav {
           justify-content: center;
 }
 
-button {
+a {
   color: #fdcb46;
   text-decoration: none;
 }
 
 #buttonMenu {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -219,12 +222,11 @@ button {
 }
 
 #buttonProch {
-  height: 1.7em;
-  padding: 0 4vh;
-  font: 1.7em sans-serif;
+  padding: 0.5vh 4vh;
+  font: 1.4em sans-serif;
 }
 
-button {
+.afooter {
   padding: 20px;
   background-color: #579c87;
   border: none;
@@ -233,7 +235,6 @@ button {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,6 +244,5 @@ footer {
           justify-content: space-between;
   background-color: #579c87;
   text-align: center;
-  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
