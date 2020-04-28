@@ -21,8 +21,17 @@ $cleargreen:#fdfffd;
     }
 
     h2{
-        font-size: 1em;
-        margin: 2px 0;
+        margin: 0 6px;
+        font-size: 2em;
+    }
+    .fa-music{
+        font-size: 2em;
+    }
+
+    article{
+        width: 96vw;
+        margin-bottom: 10.5vh;
+
     }
     p{
         margin: 3px;
@@ -39,12 +48,20 @@ $cleargreen:#fdfffd;
 
 
     h2{
-        font-size: 1em;
+        font-size: 2.2em;
+        margin: 0;
+    }
+    .fa-music{
+        font-size: 2.2em;
+        
     }
 
-    h3{
-        font-size: 1em;
+    article{
+        min-height: 73vh;
+        width: calc(73vh * 0.7071);
+        margin-bottom: 8.5vh;
     }
+    
 
    
     button{
@@ -69,7 +86,7 @@ $cleargreen:#fdfffd;
         width: 100%;
     }
 
-    article{
+    main{
         width: 100%;
     }
 
@@ -90,9 +107,10 @@ $cleargreen:#fdfffd;
         width: calc(32vh * 0.7071);
     }
     
-    article{
+    main{
         width: 70.71vh;
     }
+
     
     footer{
         width: 70.71vh;
@@ -125,27 +143,33 @@ header{
 h1{
     font-family: sans-serif;
     letter-spacing: -0.075em;
+    margin: 1.3vh 0;
+}
+h3{
+    margin: 0.5vh 0;
+}
+#titre{
+    letter-spacing: 0;
 }
 
 .fontN{
     font-weight: normal;
 }
-article{
+main{
     flex: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
 }
-.clickmenu{
-    background-color: $pink;
-    margin: 2%;
+
+article{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    justify-content: space-around;
+    
+
 }
+
 #lne{
     background-color: $pink;
     font-family: cursive ;
@@ -154,7 +178,7 @@ article{
 .h2Lne{
     font-family: 'Roboto Slab', serif;
     font-family: 'Alex Brush', cursive;
-    margin-top: 0;
+    
 }
 
 .fa-music{
@@ -202,7 +226,7 @@ section{
 }
 
 #sectionlanote{
-    margin: 2%;
+    margin: 4%;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -211,12 +235,17 @@ section{
 #sectionlanote2{
     margin: 4%;
     justify-content: center;
+    
 }
 
 
 .sectionColone{
     flex-direction: column;
-    width: 90%;
+    justify-content: space-between;
+}
+div{
+    display: flex;
+    justify-content: space-between;
 }
 
 #imageMenu{
@@ -242,26 +271,10 @@ a{
 }
 
 
-
-img{
-    max-width: 90%;
-}
-
-
 .pBold{
     font-weight: bold;
 }
 
-#buttonMenu{
-    
-    align-items: center;
-    
-}
- #buttonProch{
-     height: 1.7em;
-     padding: 0 4vh;
-     font: 1.7em sans-serif;
- }
 
 footer{
     position: fixed;
@@ -273,6 +286,12 @@ footer{
     
 }
 
-#footerindex{
-        position: relative;
+
+.afooter{
+    padding: 20px;
+    background-color: $green;
+    border: none;
+    border-radius: 15px;
+    font-family: sans-serif;
+    
 }

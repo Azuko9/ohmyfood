@@ -7,8 +7,15 @@
     width: calc(26vh * 0.7071);
   }
   h2 {
-    font-size: 1em;
-    margin: 2px 0;
+    margin: 0 6px;
+    font-size: 2em;
+  }
+  .fa-music {
+    font-size: 2em;
+  }
+  article {
+    width: 96vw;
+    margin-bottom: 10.5vh;
   }
   p {
     margin: 3px;
@@ -20,10 +27,16 @@
     font: bold 2.5em sans-serif;
   }
   h2 {
-    font-size: 1em;
+    font-size: 2.2em;
+    margin: 0;
   }
-  h3 {
-    font-size: 1em;
+  .fa-music {
+    font-size: 2.2em;
+  }
+  article {
+    min-height: 73vh;
+    width: calc(73vh * 0.7071);
+    margin-bottom: 8.5vh;
   }
   button {
     font: 2vh sans-serif;
@@ -45,7 +58,7 @@
   header {
     width: 100%;
   }
-  article {
+  main {
     width: 100%;
   }
   footer {
@@ -61,7 +74,7 @@
     height: 32vh;
     width: calc(32vh * 0.7071);
   }
-  article {
+  main {
     width: 70.71vh;
   }
   footer {
@@ -96,13 +109,22 @@ header {
 h1 {
   font-family: sans-serif;
   letter-spacing: -0.075em;
+  margin: 1.3vh 0;
+}
+
+h3 {
+  margin: 0.5vh 0;
+}
+
+#titre {
+  letter-spacing: 0;
 }
 
 .fontN {
   font-weight: normal;
 }
 
-article {
+main {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -116,13 +138,9 @@ article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
-.clickmenu {
-  background-color: #fcdfdb;
-  margin: 2%;
+article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,13 +148,8 @@ article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 #lne {
@@ -148,7 +161,6 @@ article {
 .h2Lne {
   font-family: 'Roboto Slab', serif;
   font-family: 'Alex Brush', cursive;
-  margin-top: 0;
 }
 
 .fa-music {
@@ -198,7 +210,7 @@ section {
 }
 
 #sectionlanote {
-  margin: 2%;
+  margin: 4%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -221,7 +233,18 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #imageMenu {
@@ -249,24 +272,8 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 90%;
-}
-
 .pBold {
   font-weight: bold;
-}
-
-#buttonMenu {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#buttonProch {
-  height: 1.7em;
-  padding: 0 4vh;
-  font: 1.7em sans-serif;
 }
 
 footer {
@@ -282,7 +289,11 @@ footer {
   text-align: center;
 }
 
-#footerindex {
-  position: relative;
+.afooter {
+  padding: 20px;
+  background-color: #579c87;
+  border: none;
+  border-radius: 15px;
+  font-family: sans-serif;
 }
 /*# sourceMappingURL=stylemenu.css.map */
