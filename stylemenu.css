@@ -103,21 +103,24 @@ body {
 header {
   background-color: #579c87;
   color: #fdcb46;
-  text-align: center;
 }
 
 h1 {
   font-family: sans-serif;
-  letter-spacing: -0.075em;
   margin: 1.3vh 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 h3 {
   margin: 0.5vh 0;
 }
 
-#titre {
-  letter-spacing: 0;
+#logo {
+  letter-spacing: -0.075em;
 }
 
 .fontN {
@@ -209,12 +212,8 @@ section {
           justify-content: space-between;
 }
 
-#sectionlanote {
-  margin: 4%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+#lanote {
+  bottom: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

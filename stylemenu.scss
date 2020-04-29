@@ -51,6 +51,8 @@ $cleargreen:#fdfffd;
         font-size: 2.2em;
         margin: 0;
     }
+
+
     .fa-music{
         font-size: 2.2em;
         
@@ -137,19 +139,22 @@ body{
 header{
     background-color: $green;
     color: $orange;
-    text-align: center;
     
 }
 h1{
     font-family: sans-serif;
-    letter-spacing: -0.075em;
     margin: 1.3vh 0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
 h3{
     margin: 0.5vh 0;
 }
-#titre{
-    letter-spacing: 0;
+#logo{
+    letter-spacing: -0.075em;
 }
 
 .fontN{
@@ -225,9 +230,8 @@ section{
     justify-content: space-between;
 }
 
-#sectionlanote{
-    margin: 4%;
-    flex-direction: column-reverse;
+#lanote{
+    bottom: 0;
     justify-content: center;
     text-align: center;
 }
