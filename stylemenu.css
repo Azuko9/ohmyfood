@@ -15,6 +15,7 @@
   }
   article {
     width: 96vw;
+    min-height: 73vh;
     margin-bottom: 10.5vh;
   }
   p {

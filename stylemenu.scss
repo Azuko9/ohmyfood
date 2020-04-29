@@ -30,6 +30,7 @@ $cleargreen:#fdfffd;
 
     article{
         width: 96vw;
+        min-height: 73vh;
         margin-bottom: 10.5vh;
 
     }
@@ -220,7 +221,6 @@ article{
 
 #plt{
     background-color: $cleargreen;
-    
     font-family: cursive ;
 }
 .h2Plt{
