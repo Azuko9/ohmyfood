@@ -1,73 +1,27 @@
-@media screen and (max-width: 767px) {
-  button {
-    font: 1.4em sans-serif;
-  }
-  .clickmenu {
-    height: 26vh;
-    width: calc(26vh * 0.7071);
-  }
-  h2 {
-    font-size: 0.7em;
-    margin: 2px 0;
-  }
-  p {
-    margin: 3px;
-    font-size: 0.7em;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  h1 {
-    font: bold 2.5em sans-serif;
-  }
-  h2 {
-    font-size: 1.2em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  button {
-    font: 2vh sans-serif;
-  }
-  .clickmenu {
-    height: 35vh;
-    width: calc(35vh * 0.7071);
-  }
-  .fa-music {
-    font-size: 2em;
-    margin: 0 10px;
-  }
-  p {
-    margin: 5px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  header {
-    width: 100%;
-  }
+@media screen and (max-width: 898px) {
   main {
     width: 100%;
   }
   footer {
-    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  header {
-    width: 70.71vh;
-  }
-  .clickmenu {
-    height: 32vh;
-    width: calc(32vh * 0.7071);
-  }
+@media screen and (min-width: 899px) {
   main {
     width: 70.71vh;
   }
   footer {
-    width: 70.71vh;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
+}
+
+.clickmenu {
+  height: 32vh;
+  width: calc(32vh * 0.7071);
 }
 
 body {
@@ -89,6 +43,7 @@ body {
 }
 
 header {
+  width: 100%;
   background-color: #579c87;
   color: #fdcb46;
   text-align: center;
@@ -227,23 +182,22 @@ a {
   font: 1.4em sans-serif;
 }
 
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #579c87;
+  text-align: center;
+}
+
 .afooter {
   padding: 20px;
   background-color: #579c87;
   border: none;
   border-radius: 15px;
   font-family: sans-serif;
-}
-
-footer {
-  bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #579c87;
-  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
