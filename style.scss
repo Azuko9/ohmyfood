@@ -74,6 +74,11 @@ main{
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    .imageMenu{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
 }
 
 nav{
@@ -82,13 +87,7 @@ nav{
     justify-content: space-between;
 }
 
-#imageMenu{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
-}
 
 a{
     color: $orange;
