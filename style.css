@@ -125,13 +125,16 @@ a {
           align-items: center;
 }
 
-#lne {
+.clickmenu lne {
   background-color: #fcdfdb;
   color: #492025;
 }
 
-.fa-music {
-  color: #dd65d3;
+.clickmenu lcf {
+  background-color: #fff5fe;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'EB Garamond', serif;
+  color: #920fcf;
 }
 
 .h2Lne {
@@ -140,11 +143,8 @@ a {
   margin-top: 0;
 }
 
-#lcf {
-  background-color: #fff5fe;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'EB Garamond', serif;
-  color: #920fcf;
+.fa-music {
+  color: #dd65d3;
 }
 
 .pBold {

@@ -106,30 +106,31 @@ a{
     justify-content: center;
     text-align: center;
     align-items: center;
+    & lne{
+    background-color: $pink;
+    color:$brown; 
+    }
+    & lcf{
+    background-color: $sakura;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'EB Garamond', serif;
+    color: rgb(146, 15, 207);
+    }
+
 }
 
-#lne{
-    background-color: $pink;
-    color:$brown;
-}
+.h2Lne{
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Alex Brush', cursive;
+        margin-top: 0;
+        }
 
 .fa-music{
     color: rgb(221, 101, 211);
 }
 
-.h2Lne{
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Alex Brush', cursive;
-    margin-top: 0;
-    
-}
 
-#lcf{
-    background-color: $sakura;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'EB Garamond', serif;
-    color: rgb(146, 15, 207);
-}
+
 
 .pBold{
     font-weight: bold;
