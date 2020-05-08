@@ -85,25 +85,18 @@ $cleargreen:#fdfffd;
 
 }
 @media screen and (max-width: 1023px){
-    header{
-        width: 100%;
-    }
 
     main{
         width: 100%;
     }
 
 
-    footer{
-        width: 100%;
-    }
+
 }
 
 
 @media screen and (min-width: 1024px){
-    header{
-        width: 70.71vh;
-    }
+   
 
     .clickmenu{
         height: 32vh;
@@ -115,9 +108,7 @@ $cleargreen:#fdfffd;
     }
 
     
-    footer{
-        width: 70.71vh;
-    }
+
 
 
 
@@ -138,6 +129,7 @@ body{
 
 
 header{
+    width: 100%;
     background-color: $green;
     color: $orange;
     
@@ -152,9 +144,33 @@ h2{
     text-align: center;
     
 }
-h3{
+
+
+
+h3 {
     margin: 0.5vh 0;
+    text-decoration:none;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    &:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 0;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+    &:hover:after {
+        width: 50%;
+        background: black;
+    }
 }
+
+
 #logo{
     letter-spacing: -0.075em;
 }
@@ -180,7 +196,7 @@ article{
     bottom: 0;
     justify-content: center;
     text-align: center;
-    margin: 1.5vh;
+    margin: 1.2vh;
 }
 
 #lne{
@@ -260,7 +276,6 @@ div{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 
@@ -286,19 +301,32 @@ a{
 footer{
     position: fixed;
     bottom: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: $green;
     text-align: center;
     
 }
 
-
-.afooter{
-    padding: 20px;
-    background-color: $green;
-    border: none;
-    border-radius: 15px;
-    font-family: sans-serif;
-    
+.aFooter{
+    margin: 20px;
+    font-size: 1.4em;
+    &:hover{
+        animation:wiggle 0.7s;
+    }
 }
+
+@keyframes wiggle {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
