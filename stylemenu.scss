@@ -157,15 +157,15 @@ h3 {
     text-transform: uppercase;
     &:after {
         content: '';
+        text-align: left;
         display: block;
-        margin: auto;
         height: 2px;
-        width: 0;
-        background: transparent;
+        width: 0px;
+
         transition: width .5s ease, background-color .5s ease;
     }
     &:hover:after {
-        width: 50%;
+        width: 100%;
         background: black;
     }
 }

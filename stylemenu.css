@@ -117,17 +117,16 @@ h3 {
 
 h3:after {
   content: '';
+  text-align: left;
   display: block;
-  margin: auto;
   height: 2px;
-  width: 0;
-  background: transparent;
+  width: 0px;
   -webkit-transition: width .5s ease, background-color .5s ease;
   transition: width .5s ease, background-color .5s ease;
 }
 
 h3:hover:after {
-  width: 50%;
+  width: 100%;
   background: black;
 }
 
