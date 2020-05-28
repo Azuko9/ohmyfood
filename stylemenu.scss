@@ -183,6 +183,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 14vh;
 }
 
 article{
@@ -218,9 +219,10 @@ article{
     background-color: $sakura;
     font-family: 'Roboto Slab', serif;
     font-family: 'EB Garamond', serif;
-    color: rgb(146, 15, 207);
+
 
 }
+
 
 
 #pap{
