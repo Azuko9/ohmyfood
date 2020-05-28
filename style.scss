@@ -59,6 +59,7 @@ header{
 h1{
     font-family: sans-serif;
     letter-spacing: -0.075em;
+    margin: 10px 0;
 }
 
 main{
@@ -67,7 +68,7 @@ main{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    margin-bottom: 14vh;
 }
 
 nav{
