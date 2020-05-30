@@ -176,8 +176,8 @@ h3 {
     content: '';
     text-align: left;
     display: block;
-    height: 5px;
-    width: 20%;
+    height: 8px;
+    width: 22%;
     margin: 0 5px;
     
     
@@ -204,6 +204,14 @@ h3 {
 }
 .trait_pap3{
     background-color:$blue3;
+}
+
+.trait_pgcolor{
+    background: linear-gradient(to right,#029e487e,#e1fd7a);
+}
+
+.trait_pgcolor2{
+    background: linear-gradient(to left,#029e487e,#e1fd7a);
 }
 
  .soustitre{
@@ -273,6 +281,16 @@ article{
     background-clip: text;
     color: transparent;
 }
+
+.pgcolor{
+    background-image: linear-gradient(to right,#029e487e,#e1fd7a);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+
 
 .lcfcolor1{
     color: brown;

@@ -6,6 +6,9 @@ $sakura:#fff5fe;
 $brown:#492025;
 $clearcyan:#edefef;
 $cleargreen:#fdfffd;
+$blue1:#24b8fc;
+$blue2:#2470fc;
+$blue3:#2e00fc;
 
 @media screen and (max-width:699px){
         main{
@@ -140,7 +143,11 @@ a{
     }
     &__plt{
     background-color: $cleargreen;
-    color: chartreuse;
+    background-image: linear-gradient(to right,#029e487e,#e1fd7a);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
         &--h2{
             font-family: 'Alex Brush', cursive;
             font-family: 'Mr Dafoe', cursive;

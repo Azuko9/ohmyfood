@@ -134,8 +134,8 @@ h3:hover:after {
   content: '';
   text-align: left;
   display: block;
-  height: 5px;
-  width: 20%;
+  height: 8px;
+  width: 22%;
   margin: 0 5px;
 }
 
@@ -165,6 +165,16 @@ h3:hover:after {
 
 .trait_pap3 {
   background-color: #2e00fc;
+}
+
+.trait_pgcolor {
+  background: -webkit-gradient(linear, left top, right top, from(#029e487e), to(#e1fd7a));
+  background: linear-gradient(to right, #029e487e, #e1fd7a);
+}
+
+.trait_pgcolor2 {
+  background: -webkit-gradient(linear, right top, left top, from(#029e487e), to(#e1fd7a));
+  background: linear-gradient(to left, #029e487e, #e1fd7a);
 }
 
 .soustitre {
@@ -252,6 +262,14 @@ article {
 #papcolor {
   background-image: -webkit-gradient(linear, left top, right top, from(#24b8fc), color-stop(#2470fc), to(#2e00fc));
   background-image: linear-gradient(to right, #24b8fc, #2470fc, #2e00fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.pgcolor {
+  background-image: -webkit-gradient(linear, left top, right top, from(#029e487e), to(#e1fd7a));
+  background-image: linear-gradient(to right, #029e487e, #e1fd7a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
