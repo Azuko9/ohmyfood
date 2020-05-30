@@ -203,12 +203,12 @@ footer{
 .aProch:after{
     display: inline-block;
     animation: suspension 3s infinite;
-    content: 'suspension';
+    content: '';
 }
 .aProch:after {
     display: inline-block;
     animation: suspension 3s infinite;
-    content: 'suspension';
+    content: '';
 }
 @keyframes suspension {
     0%   { content: ''; }

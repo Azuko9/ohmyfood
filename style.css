@@ -228,14 +228,14 @@ footer {
   display: inline-block;
   -webkit-animation: suspension 3s infinite;
           animation: suspension 3s infinite;
-  content: 'suspension';
+  content: '';
 }
 
 .aProch:after {
   display: inline-block;
   -webkit-animation: suspension 3s infinite;
           animation: suspension 3s infinite;
-  content: 'suspension';
+  content: '';
 }
 
 @-webkit-keyframes suspension {
