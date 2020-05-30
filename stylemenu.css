@@ -152,6 +152,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 14vh;
 }
 
 article {
@@ -194,7 +195,6 @@ article {
   background-color: #fff5fe;
   font-family: 'Roboto Slab', serif;
   font-family: 'EB Garamond', serif;
-  color: #920fcf;
 }
 
 #pap {

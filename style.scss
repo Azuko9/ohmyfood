@@ -15,6 +15,10 @@ $cleargreen:#fdfffd;
 
     footer{
         justify-content: space-between;
+
+    }
+    .aFooter{
+        margin: 7px;
     }
 
     .clickmenu{
@@ -34,6 +38,10 @@ $cleargreen:#fdfffd;
 
     footer{
         justify-content: space-around;
+        
+    }
+    .aFooter{
+        margin: 20px;
     }
 }
 
@@ -68,7 +76,7 @@ main{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 17vh;
+
 }
 
 nav{
@@ -186,7 +194,6 @@ footer{
 }
 
 .aFooter{
-    margin: 20px;
     font-size: 1.4em;
     &:hover{
         animation:wiggle 0.7s;
