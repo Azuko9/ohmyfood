@@ -54,7 +54,7 @@ body {
 
 header {
   width: 100%;
-  background-color: #cf1ddf;
+  background-color: #579c87;
   color: #fdcb46;
   text-align: center;
 }
@@ -207,13 +207,13 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #cf1ddf;
+  background-color: #579c87;
   text-align: center;
 }
 
 .aProch {
   padding: 20px;
-  background-color: #cf1ddf;
+  background-color: #579c87;
   border: none;
   border-radius: 15px;
   font-family: sans-serif;
