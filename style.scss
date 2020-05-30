@@ -161,7 +161,11 @@ a{
 
 
 .fa-music{
-    color: rgb(221, 101, 211);
+    background-image: linear-gradient(to right, red, orange);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
 }
 
 #buttonMenu{
@@ -225,13 +229,7 @@ footer{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-  #notecolor{
-    background-image: linear-gradient(to right, red, orange);   
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    background-clip: text;
-    color: transparent;
-}
+
 
 #lcfcolor{
     background-image: linear-gradient(to right,brown, purple, blue);   
