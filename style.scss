@@ -199,15 +199,12 @@ footer{
      font: 1.4em sans-serif;
 
 }
-.aProch::before
-.aProch:after{
-    display: inline-block;
-    animation: suspension 3s infinite;
-    content: '';
-}
+
 .aProch:after {
     display: inline-block;
-    animation: suspension 3s infinite;
+    animation-name: suspension;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     content: '';
 }
 @keyframes suspension {
