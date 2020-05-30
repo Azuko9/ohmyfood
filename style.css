@@ -236,12 +236,15 @@ footer {
 
 @-webkit-keyframes suspension {
   0% {
+    background-color: #24b8fc;
     content: '';
   }
   20% {
+    background-color: #2470fc;
     content: '.';
   }
   40% {
+    background-color: #2e00fc;
     content: '..';
   }
   60% {
@@ -257,12 +260,15 @@ footer {
 
 @keyframes suspension {
   0% {
+    background-color: #24b8fc;
     content: '';
   }
   20% {
+    background-color: #2470fc;
     content: '.';
   }
   40% {
+    background-color: #2e00fc;
     content: '..';
   }
   60% {
