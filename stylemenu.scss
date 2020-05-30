@@ -259,13 +259,7 @@ article{
 
 }
 
-#notecolor{
-    background-image: linear-gradient(to right, red, orange);   
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    background-clip: text;
-    color: transparent;
-}
+
 #lcfcolor{
     background-image: linear-gradient(to right,brown, purple, blue);   
     -webkit-background-clip: text;
@@ -282,7 +276,7 @@ article{
     color: transparent;
 }
 
-.pgcolor{
+#pgcolor{
     background-image: linear-gradient(to right,#029e487e,#e1fd7a);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
@@ -305,7 +299,11 @@ article{
 }
 
 .fa-music{
-    color: rgb(221, 101, 211);
+    background-image: linear-gradient(to right, red, orange);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
 }
 
 #lcf{

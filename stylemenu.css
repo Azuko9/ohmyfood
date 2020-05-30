@@ -243,14 +243,6 @@ article {
   font-family: 'Alex Brush', cursive;
 }
 
-#notecolor {
-  background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
-  background-image: linear-gradient(to right, red, orange);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 #lcfcolor {
   background-image: -webkit-gradient(linear, left top, right top, from(brown), color-stop(purple), to(blue));
   background-image: linear-gradient(to right, brown, purple, blue);
@@ -267,7 +259,7 @@ article {
   color: transparent;
 }
 
-.pgcolor {
+#pgcolor {
   background-image: -webkit-gradient(linear, left top, right top, from(#029e487e), to(#e1fd7a));
   background-image: linear-gradient(to right, #029e487e, #e1fd7a);
   -webkit-background-clip: text;
@@ -288,7 +280,11 @@ article {
 }
 
 .fa-music {
-  color: #dd65d3;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+  background-image: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 #lcf {
