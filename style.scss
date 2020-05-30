@@ -200,8 +200,8 @@ footer{
 
 }
 
-#suspanim:after {
-    display: inline-block;
+#suspanim {
+    
     animation-name: suspension;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -209,7 +209,7 @@ footer{
 }
 @keyframes suspension {
     0%   {background-color: $blue1; content: ''; }
-    20%  {background-color: $blue2; content: '.'; }
+    20%  { content: '.'; }
     40%  {background-color: $blue3; content: '..'; }
     60%  { content: '...'; }
     80%  { content: '....'; }

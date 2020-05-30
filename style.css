@@ -223,8 +223,7 @@ footer {
   font: 1.4em sans-serif;
 }
 
-#suspanim:after {
-  display: inline-block;
+#suspanim {
   -webkit-animation-name: suspension;
           animation-name: suspension;
   -webkit-animation-duration: 3s;
@@ -240,7 +239,6 @@ footer {
     content: '';
   }
   20% {
-    background-color: #2470fc;
     content: '.';
   }
   40% {
@@ -264,7 +262,6 @@ footer {
     content: '';
   }
   20% {
-    background-color: #2470fc;
     content: '.';
   }
   40% {
