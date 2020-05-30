@@ -234,14 +234,17 @@ footer {
   0% {
     content: '';
   }
-  25% {
+  20% {
     content: '.';
   }
-  50% {
+  40% {
     content: '..';
   }
-  75% {
+  60% {
     content: '...';
+  }
+  80% {
+    content: '....';
   }
   100% {
     content: '';
@@ -252,14 +255,17 @@ footer {
   0% {
     content: '';
   }
-  25% {
+  20% {
     content: '.';
   }
-  50% {
+  40% {
     content: '..';
   }
-  75% {
+  60% {
     content: '...';
+  }
+  80% {
+    content: '....';
   }
   100% {
     content: '';
