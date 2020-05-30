@@ -223,6 +223,14 @@ footer {
   font: 1.4em sans-serif;
 }
 
+.aProch::before
+.aProch:after {
+  display: inline-block;
+  -webkit-animation: suspension 3s infinite;
+          animation: suspension 3s infinite;
+  content: 'suspension';
+}
+
 .aProch:after {
   display: inline-block;
   -webkit-animation: suspension 3s infinite;
