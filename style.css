@@ -227,7 +227,7 @@ footer {
   display: inline-block;
   -webkit-animation: suspension 3s infinite;
           animation: suspension 3s infinite;
-  content: '';
+  content: 'suspension';
 }
 
 @-webkit-keyframes suspension {
