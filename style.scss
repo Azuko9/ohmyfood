@@ -4,8 +4,8 @@ $white:#ffffff;
 $pink:#fcdfdb;
 $sakura:#fff5fe;
 $brown:#492025;
-$clearcyan:#edefef;
-$cleargreen:#fdfffd;
+$clearcyan:#ebfafa;
+$cleargreen:#f5fff5;
 $blue1:#24b8fc;
 $blue2:#2470fc;
 $blue3:#2e00fc;
@@ -129,13 +129,15 @@ a{
     color: $brown;
     }
     &__pap{
+    
     background-color: $clearcyan;
-    background-image: linear-gradient(to right,$blue1,$blue2,$blue3);   
+    
+        &--h2{
+            background-image: linear-gradient(to right,$blue1,$blue2,$blue3);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
-        &--h2{
         font-family: 'Roboto Slab', serif;
         font-family: 'Alex Brush', cursive;
         font-family: 'Mr Dafoe', cursive;
@@ -143,12 +145,12 @@ a{
     }
     &__plt{
     background-color: $cleargreen;
-    background-image: linear-gradient(to right,#029e487e,#e1fd7a);   
+    
+        &--h2{background-image: linear-gradient(to right,#029e487e,#e1fd7a);   
     -webkit-background-clip: text;
     -moz-background-clip: text; 
     background-clip: text;
     color: transparent;
-        &--h2{
             font-family: 'Alex Brush', cursive;
             font-family: 'Mr Dafoe', cursive;
             font-family: 'Roboto Slab', serif;

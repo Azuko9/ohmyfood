@@ -152,30 +152,30 @@ a {
 }
 
 .clickmenu__pap {
-  background-color: #edefef;
+  background-color: #ebfafa;
+}
+
+.clickmenu__pap--h2 {
   background-image: -webkit-gradient(linear, left top, right top, from(#24b8fc), color-stop(#2470fc), to(#2e00fc));
   background-image: linear-gradient(to right, #24b8fc, #2470fc, #2e00fc);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
-
-.clickmenu__pap--h2 {
   font-family: 'Roboto Slab', serif;
   font-family: 'Alex Brush', cursive;
   font-family: 'Mr Dafoe', cursive;
 }
 
 .clickmenu__plt {
-  background-color: #fdfffd;
+  background-color: #f5fff5;
+}
+
+.clickmenu__plt--h2 {
   background-image: -webkit-gradient(linear, left top, right top, from(#029e487e), to(#e1fd7a));
   background-image: linear-gradient(to right, #029e487e, #e1fd7a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
-
-.clickmenu__plt--h2 {
   font-family: 'Alex Brush', cursive;
   font-family: 'Mr Dafoe', cursive;
   font-family: 'Roboto Slab', serif;
