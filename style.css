@@ -148,7 +148,7 @@ a {
   background-color: #fff5fe;
   font-family: 'Roboto Slab', serif;
   font-family: 'EB Garamond', serif;
-  color: #920fcf;
+  color: #492025;
 }
 
 .clickmenu__pap {
@@ -355,5 +355,21 @@ footer {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
             transform: translate(1px, -2px) rotate(-1deg);
   }
+}
+
+#notecolor {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+  background-image: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#lcfcolor {
+  background-image: -webkit-gradient(linear, left top, right top, from(brown), color-stop(purple), to(blue));
+  background-image: linear-gradient(to right, brown, purple, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 /*# sourceMappingURL=style.css.map */

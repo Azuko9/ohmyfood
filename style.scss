@@ -123,11 +123,15 @@ a{
     background-color: $sakura;
     font-family: 'Roboto Slab', serif;
     font-family: 'EB Garamond', serif;
-    color: rgb(146, 15, 207);
+    color: $brown;
     }
     &__pap{
     background-color: $clearcyan;
-    color: blue;
+    background-image: linear-gradient(to right,$blue1,$blue2,$blue3);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
         &--h2{
         font-family: 'Roboto Slab', serif;
         font-family: 'Alex Brush', cursive;
@@ -213,3 +217,20 @@ footer{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  #notecolor{
+    background-image: linear-gradient(to right, red, orange);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+#lcfcolor{
+    background-image: linear-gradient(to right,brown, purple, blue);   
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+

@@ -35,8 +35,8 @@
     font-size: 2.2em;
   }
   article {
-    min-height: 73vh;
-    width: calc(73vh * 0.7071);
+    min-height: 86vh;
+    width: calc(86vh * 0.7071);
     margin-bottom: 8.5vh;
   }
   button {
@@ -111,7 +111,7 @@ h3 {
   line-height: 50px;
   padding: 0 10px;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -128,6 +128,52 @@ h3:after {
 h3:hover:after {
   width: 100%;
   background: black;
+}
+
+.trait {
+  content: '';
+  text-align: left;
+  display: block;
+  height: 5px;
+  width: 20%;
+  margin: 0 5px;
+}
+
+.trait_lanote {
+  background-color: #492025;
+}
+
+.trait_lcf1 {
+  background-color: brown;
+}
+
+.trait_lcf2 {
+  background-color: purple;
+}
+
+.trait_lcf3 {
+  background-color: blue;
+}
+
+.trait_pap1 {
+  background-color: #24b8fc;
+}
+
+.trait_pap2 {
+  background-color: #2470fc;
+}
+
+.trait_pap3 {
+  background-color: #2e00fc;
+}
+
+.soustitre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #logo {
@@ -185,6 +231,42 @@ article {
 .h2Lne {
   font-family: 'Roboto Slab', serif;
   font-family: 'Alex Brush', cursive;
+}
+
+#notecolor {
+  background-image: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+  background-image: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#lcfcolor {
+  background-image: -webkit-gradient(linear, left top, right top, from(brown), color-stop(purple), to(blue));
+  background-image: linear-gradient(to right, brown, purple, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#papcolor {
+  background-image: -webkit-gradient(linear, left top, right top, from(#24b8fc), color-stop(#2470fc), to(#2e00fc));
+  background-image: linear-gradient(to right, #24b8fc, #2470fc, #2e00fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lcfcolor1 {
+  color: brown;
+}
+
+.lcfcolor2 {
+  color: purple;
+}
+
+.lcfcolor3 {
+  color: blue;
 }
 
 .fa-music {
