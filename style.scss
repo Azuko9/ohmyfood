@@ -134,10 +134,10 @@ a{
     
         &--h2{
             background-image: linear-gradient(to right,$blue1,$blue2,$blue3);   
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    background-clip: text;
-    color: transparent;
+            -webkit-background-clip: text;
+            -moz-background-clip: text; 
+            background-clip: text;
+            color: transparent;
         font-family: 'Roboto Slab', serif;
         font-family: 'Alex Brush', cursive;
         font-family: 'Mr Dafoe', cursive;
@@ -147,10 +147,10 @@ a{
     background-color: $cleargreen;
     
         &--h2{background-image: linear-gradient(to right,#029e487e,#e1fd7a);   
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    background-clip: text;
-    color: transparent;
+            -webkit-background-clip: text;
+            -moz-background-clip: text; 
+            background-clip: text;
+            color: transparent;
             font-family: 'Alex Brush', cursive;
             font-family: 'Mr Dafoe', cursive;
             font-family: 'Roboto Slab', serif;
