@@ -203,11 +203,13 @@ footer{
      margin-top: 2vh;
      padding: 0.5vh 4vh;
      font: 1.4em sans-serif;
-    &:after {
-        display: inline-block;
-        animation: suspension 2s infinite;
-        content: '';
-    }
+
+}
+
+.aProch:after {
+    display: inline-block;
+    animation: suspension 2s infinite;
+    content: '';
 }
 
 .aFooter{
